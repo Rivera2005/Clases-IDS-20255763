@@ -1,0 +1,1 @@
+menu = ("Hamburguesa", "Hotdog", "Pizza", "Tacos", "Lasaña", "Ensalada", "Pupusas", "Burrito", "Alitas de pollo", "Papas fritas")
