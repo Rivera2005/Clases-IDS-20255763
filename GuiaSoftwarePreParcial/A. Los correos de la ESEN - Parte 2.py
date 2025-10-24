@@ -10,7 +10,8 @@ correo = input()
 
 condicion1 = correo.count("@") == 1
 indexarroba = correo.index("@")
-condicion2 = len(correo[indexarroba:]) >= 3 and len(correo[:indexarroba]) >= 3
+condicion2 = len(correo[indexarroba + 1:]) >= 3 and len(correo[:indexarroba]) >= 3
+print(correo[:indexarroba])
 condicion3 = correo.count(".") >= 1
 condicion4 = correo.count(" ") == 0
 condicion5 = correo[0] != "." and correo [-1] != "."
