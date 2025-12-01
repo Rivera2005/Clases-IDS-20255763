@@ -12,3 +12,6 @@ for i in listas_cantidad_distribuida:
         print("Ok")
     else:
         print("No")
+
+
+        
